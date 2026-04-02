@@ -1,5 +1,7 @@
 let hora = 12;
 let nome = "Yara!";
+function Horaatual(hora, nome){
+
 if (hora > 0 && hora <= 11) {
     console.log (`bom dia ${nome}`)
 } else if  (hora > 11 && hora <= 18) {
@@ -8,4 +10,5 @@ if (hora > 0 && hora <= 11) {
         console.log (`boa noite ${nome}`);
   } else  {
    console.log ("hora invalida")
+}
 }
